@@ -1,0 +1,119 @@
+
+*{
+    text-align: center;
+    /* font-size: calc(0.3em + 1vw); */
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration:none;
+}
+
+.errormessage{
+    color:red;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
+
+
+#companyName {
+    color: white;
+    text-shadow: 2.5px 2.5px 0 rgb(180, 155, 12), 1px -1px 0 rgb(180, 155, 12), -1px 1px 0 rgb(180, 155, 12), 1px 1px 0 rgb(180, 155, 12);
+    padding: 10px;
+    width: 20%;
+    margin: 1.5em auto;
+    border: 2px solid rgb(180, 155, 12);
+    border-radius: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:40px;
+    box-shadow: 2.5px 2.5px 5px rgb(168, 162, 145);
+
+}
+
+.titlePage {
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', serif;
+    color:rgb(40, 12, 141);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: center;
+}
+
+.card{
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 4vw;
+    padding: 3vw;
+    box-shadow: 5px 5px 10px #666;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    cursor: pointer;
+    display: inline-block;
+  }  
+
+.btn:hover {
+    background: #eee;
+}
+
+.btn-home{
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn-home:hover{
+    background: #eee;
+}
+
+input.btn{
+    color:#2670f9;
+}
+
+input.btn:hover{
+    background-color:#eef0ff;
+    color:rgb(40, 12, 141);
+}
+
+.input_name{
+    text-align: left;
+    padding-top: 15px;
+    
+}
+
+
+input, select{
+    border: none;
+    margin: 15px 10px 0px 0px;
+    background-color: #eef0ff;
+    border-bottom: 2px solid #2670f9;
+    width: 100% ;
+}
+
+
+.show-info-label{
+    margin:2.5px;
+    color:rgb(158, 155, 155);
+    font-size: 15px;
+    text-align: initial;
+    margin: auto 0;
+}
+
+.show-info-value{
+    padding: auto;
+    overflow: auto;
+    font-family: 'Times New Roman', Times, serif;
+    margin:2.5px;
+}

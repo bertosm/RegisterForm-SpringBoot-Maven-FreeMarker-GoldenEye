@@ -1,9 +1,15 @@
 package com.codebay.goldeneye.models;
 
+import javax.validation.constraints.NotEmpty;
+
 public class User {
     
     private final String companyDomain = "goldenEye.com";
+
+    @NotEmpty
     private String name;
+    
+    @NotEmpty
     private String surname;
     private String department;
     private String office;
@@ -47,7 +53,8 @@ public class User {
     }
 
     public void generateEmail(){
-        this.email  = (this.name.charAt(0) + this.surname + "." + this.department + "@" + this.office + "." + this.companyDomain).toLowerCase();
+
+        this.email  = (this.name.charAt(0) + this.surname.replace(" ", "") + "." + this.department.replace(" ", "") + "@" + this.office.replace(" ", "") + "." + this.companyDomain).toLowerCase();
     }
 
     
